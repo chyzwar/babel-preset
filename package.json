@@ -24,7 +24,9 @@
     "babel-plugin-transform-es2015-typeof-symbol": "6.x.x",
     "babel-plugin-transform-es2015-unicode-regex": "6.x.x",
     "babel-plugin-transform-regenerator": "6.x.x",
-    "babel-plugin-transform-exponentiation-operator": "6.x.x"
+    "babel-plugin-transform-exponentiation-operator": "6.x.x",
+    "babel-plugin-syntax-trailing-function-commas": "6.x.x",
+    "babel-plugin-syntax-async-functions": "6.x.x"
   },
   "author": "chyzwar",
   "license": "MIT"
