@@ -28,6 +28,9 @@
     "babel-plugin-syntax-trailing-function-commas": "6.x.x",
     "babel-plugin-syntax-async-functions": "6.x.x"
   },
+  "devDependencies": {
+    "@toolz/eslint-config": "git+ssh://git@github.com/chyzwar/eslint-config"
+  },
   "author": "chyzwar",
   "license": "MIT"
 }
