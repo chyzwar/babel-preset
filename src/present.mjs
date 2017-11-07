@@ -1,9 +1,7 @@
-import modulesExport from "babel-plugin-add-module-exports";
-import modulesCommnonJS from "babel-plugin-transform-es2015-modules-commonjs";
+import transformFlowStripTypes from "@babel/plugin-transform-flow-strip-types";
 
 export default = {
   plugins: [
-    [modulesExport],
-    [modulesCommnonJS, { noInterop: true}]
+    [transformFlowStripTypes],
   ],
 };

@@ -1,17 +1,16 @@
 {
-  "name": "@utility/babel-preset",
-  "version": "0.1.0",
+  "name": "@garden/babel-preset",
+  "version": "0.2.0",
   "description": "",
   "main": "./lib/preset",
   "module": "./lib/preset",
   "author": "chyzwar",
   "license": "MIT",
   "dependencies": {
-    "babel-cli": "*",
-    "babel-plugin-transform-es2015-modules-commonjs": "*",
-    "babel-plugin-add-module-exports": "*"
+    "@babel/core": "next",
+    "@babel/plugin-transform-flow-strip-types": "next"
   },
   "devDependencies": {
-    "@hyper/eslint-config": "chyzwar/eslint-config"
+    "@garden/eslint-config": "chyzwar/eslint-config"
   }
 }
