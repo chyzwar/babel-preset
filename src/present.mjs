@@ -1,7 +1,9 @@
 import transformFlowStripTypes from "@babel/plugin-transform-flow-strip-types";
 
-export default = {
+const config = {
   plugins: [
     [transformFlowStripTypes],
   ],
 };
+
+export default config;
