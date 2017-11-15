@@ -1,14 +1,12 @@
-# Logs
-*.log
-
-# Coverage #
-coverage
-
-# Node Files #
+# Modules #
 node_modules
 
-# Build Folder #
-build
+# Flow definitions #
+flow-typed
+
+# Logs #
+*.log
 
 # Editors #
 .idea/
+.vscode

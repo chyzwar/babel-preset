@@ -7,8 +7,8 @@
   "author": "chyzwar",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "next",
-    "@babel/plugin-transform-flow-strip-types": "next"
+    "@babel/core": "*",
+    "@babel/plugin-transform-flow-strip-types": "*"
   },
   "devDependencies": {
     "@garden/eslint-config": "chyzwar/eslint-config"
