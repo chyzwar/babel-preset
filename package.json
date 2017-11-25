@@ -2,8 +2,7 @@
   "name": "@garden/babel-preset",
   "version": "0.2.0",
   "description": "",
-  "main": "./lib/preset",
-  "module": "./src/preset",
+  "main": "./src/preset",
   "author": "chyzwar",
   "license": "MIT",
   "dependencies": {
