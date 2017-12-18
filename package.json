@@ -1,15 +1,23 @@
 {
   "name": "@garden/babel-preset",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
-  "main": "./src/preset",
+  "main": "./preset.js",
   "author": "chyzwar",
   "license": "MIT",
+  "scripts": {
+    "publish": "publish",
+    "eslint": "eslint src",
+    "flow-check": "flow check",
+    "flow-lib": "flow-lib"
+  },
   "dependencies": {
     "@babel/core": "*",
     "@babel/plugin-transform-flow-strip-types": "*"
   },
   "devDependencies": {
-    "@garden/eslint-config": "chyzwar/eslint-config"
+    "@garden/eslint-config": "*",
+    "@garden/flow": "*",
+    "@garden/publish": "*"
   }
 }
