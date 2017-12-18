@@ -1,12 +1,9 @@
-# Modules #
+# Node Modules #
 node_modules
-
-# Flow definitions #
-flow-typed
 
 # Logs #
 *.log
 
-# Editors #
+# Text Editors #
 .idea/
 .vscode
