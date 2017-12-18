@@ -1,12 +1,12 @@
 {
   "name": "@garden/babel-preset",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "./preset.js",
   "author": "chyzwar",
   "license": "MIT",
   "scripts": {
-    "publish": "publish",
+    "publisher": "publisher",
     "eslint": "eslint src",
     "flow-check": "flow check",
     "flow-lib": "flow-lib"
@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "@garden/eslint-config": "*",
-    "@garden/flow": "*",
-    "@garden/publish": "*"
+    "@garden/publisher": "*"
   }
 }
