@@ -1,10 +1,11 @@
 {
   "name": "@garden/babel-preset",
-  "version": "0.3.2",
-  "description": "",
+  "version": "0.3.3",
+  "description": "babel preset for garden",
   "main": "./preset.js",
   "author": "chyzwar",
   "license": "MIT",
+  "repository": "https://github.com/chyzwar/babel-preset",
   "scripts": {
     "publisher": "publisher",
     "eslint": "eslint src",
@@ -12,11 +13,11 @@
     "flow-lib": "flow-lib"
   },
   "dependencies": {
-    "@babel/core": "*",
-    "@babel/plugin-transform-flow-strip-types": "*"
+    "@babel/core": "latest",
+    "@babel/plugin-transform-flow-strip-types": "latest"
   },
   "devDependencies": {
-    "@garden/eslint-config": "*",
-    "@garden/publisher": "*"
+    "@garden/eslint-config": "0.x.x",
+    "@garden/publisher": "0.x.x"
   }
 }
